@@ -14,7 +14,10 @@ body {
 .window {
     background-color: #202020 !important;
     color: white;
-    box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #404040,inset -2px -2px grey,inset 2px 2px #202020 !important;
+    box-shadow: inset -1px -1px #000000,inset 1px 1px #202020,inset -2px -2px #151515,inset 2px 2px #404040 !important;   
+}
+.window .title-bar  {
+    background: linear-gradient(90deg, navy, #0a52b1) !important;
 }
 .window-body {
     padding: 10px;
@@ -23,12 +26,12 @@ body {
     display: flex;
 }
 #header h3  {
-    font-size: xx-large;
     font-weight: 400;
     margin-left: 20px;
 }
 #pfp {
     width: 90px;
+    height: 90px;
     border-radius: 3px;
     border-color: var(--offline-color);
     border-style: solid;

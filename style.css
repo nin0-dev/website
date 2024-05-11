@@ -49,3 +49,18 @@ fieldset {
 a {
     color: cornflowerblue;
 }
+li {
+    padding: 2px;
+}
+#presence img {
+    width: 30px;
+    height: 30px;
+}
+#presence-content {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+#presence {
+    display: flex;
+}

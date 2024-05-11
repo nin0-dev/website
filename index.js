@@ -50,3 +50,7 @@ LanyardWrapper.connectWebSocket("886685857560539176", onUpdate)
 .catch(err => {
     console.error(err);
 });
+function showCredits() {
+    document.getElementById("credits").style.display = "block"
+    document.getElementById("credits-button").style.display = "none"
+}

@@ -1,6 +1,10 @@
+shouldLog = false;
+function log(content) {
+    if (shouldLog) console.log(content);
+}
 function onUpdate(data) {
-    console.log(data)
     // set status
+    log(data)
     const pfp = document.getElementById("pfp");
     switch(data["discord_status"]) {
         case "online":

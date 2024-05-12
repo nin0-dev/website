@@ -37,6 +37,10 @@ function onUpdate(data) {
             listening = true
             content = `Listening to ${presence["details"]} - ${presence["state"]}`
         }
+        if(presence["application_id"] == "1054951789318909972") { // vendetta lastfm
+            listening = true
+            content = `Listening to ${presence["details"]} - ${presence["state"].replace("by ", "")}`
+        }
         if(presence["type"] == 0 && presence["application_id"] != "463151177836658699" && presence["application_id"] != "1108588077900898414") { // generic playing status that isn't vencord lastfm or premid
             listening = false
             content = `Playing ${presence["name"]}`

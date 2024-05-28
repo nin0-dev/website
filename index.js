@@ -41,10 +41,15 @@ function onUpdate(data) {
             listening = true
             content = `Listening to ${presence["details"]} - ${presence["state"]}`
         }
+        if(presence["id"] == "spotify:1") { // built in spotify hooluy shit normal presence)
+            listening = true
+            content = `Listening to ${presence["details"]} - ${presence["state"]}`
+        }
         if(presence["type"] == 0 && presence["application_id"] != "463151177836658699" && presence["application_id"] != "1108588077900898414") { // generic playing status that isn't vencord lastfm or premid
             listening = false
             content = `Playing ${presence["name"]}`
         }
+        
     });
     document.getElementById("presence").style.display = content == "" ? "none": "flex"
     document.getElementById("presence-content").innerText = content

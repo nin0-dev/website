@@ -36,10 +36,6 @@ body {
 legend {
     background: #00000000;
 }
-fieldset {
-    border-color: #606060;
-    border-image: none;
-}
 a {
     color: blue;
 }

@@ -7,8 +7,7 @@
 body {
     padding: 30px;
     font-family: "Segoe UI", "Roboto", sans-serif !important;
-    background-size: cover;
-    background-image: url(wallpaper.jpg);
+    background-color: #56a0d1;
 }
 #main-window {
     max-width: 600px;

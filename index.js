@@ -53,7 +53,7 @@ function onUpdate(data) {
     });
     document.getElementById("presence").style.display = content == "" ? "none": "flex"
     document.getElementById("presence-content").innerText = content
-    document.getElementById("presence-icon").src = listening ? "music.png" : "game.png"
+    document.getElementById("presence-icon").src = listening ? "music.ico" : "game.ico"
 }
 LanyardWrapper.connectWebSocket("886685857560539176", onUpdate)
 .catch(err => {

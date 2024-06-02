@@ -6,7 +6,7 @@
 }
 body {
     padding: 30px;
-    font-family: sans-serif !important;
+    font-family: "Segoe UI", "Roboto", sans-serif !important;
     background-size: cover;
     background-image: url(wallpaper.jpg);
 }

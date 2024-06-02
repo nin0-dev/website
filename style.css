@@ -12,14 +12,7 @@ body {
 #main-window {
     max-width: 600px;
 }
-.window {
-    background-color: #202020;
-    color: white;
-    box-shadow: inset -1px -1px #000000,inset 1px 1px #202020,inset -2px -2px #151515,inset 2px 2px #404040;   
-}
-.window .title-bar  {
-    background: linear-gradient(90deg, navy, #0a52b1);
-}
+
 .window-body {
     padding: 10px;
 }
@@ -48,7 +41,7 @@ fieldset {
     border-image: none;
 }
 a {
-    color: cornflowerblue;
+    color: blue;
 }
 li {
     padding: 2px;
@@ -69,12 +62,4 @@ li {
     display: flex;
     align-items: end;
     justify-content: right;
-}
-button {
-    background-color: #404040;
-    color: white;
-    box-shadow: inset -1px -1px #000000, inset 1px 1px #202020, inset -2px -2px grey, inset 2px 2px #404040;
-}
-button:active {
-    box-shadow: inset -1px -1px #404040, inset 1px 1px #111111, inset -2px -2px #000000, inset 2px 2px #000000 !important;
 }
